@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sogent/CLionProjects/Program5/Patient.h
+iostream
+-
+fstream
+-
+sstream
+-
+
+/Users/sogent/CLionProjects/Program5/functions.cpp
+iostream
+-
+fstream
+-
+vector
+-
+sstream
+-
+string
+-
+functions.h
+/Users/sogent/CLionProjects/Program5/functions.h
+Patient.h
+/Users/sogent/CLionProjects/Program5/Patient.h
+
+/Users/sogent/CLionProjects/Program5/functions.h
+iostream
+-
+Patient.h
+/Users/sogent/CLionProjects/Program5/Patient.h
+
